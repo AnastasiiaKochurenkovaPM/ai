@@ -16,6 +16,6 @@ def integral (a,b, func):
         integral += func(i)
   
     answer = (b-a)*integral/float(N)
-    print ("Значення інтегралу: {:.6f}.".format(answer))
+    print ("Значення інтегралу обчисленого методом Монте-Карло: {:.6f}.".format(answer))
 
     return answer
